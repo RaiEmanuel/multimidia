@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	position: relative;
+}
+@font-face {
+  font-family: BigJohn;
+  src: url("../font/BIG JOHN.otf");
+}
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: 0;
+  border-radius: 0px;
+  background: #DDD;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #222;
+  border-radius: 0px;
+}
+#promoces{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+#benefits{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+.benefit-item{
+	position: relative;
+	background: green;
+}
+#benefits .row .col .card{
+	margin-bottom: 3vh;
+}
+.social{
+	margin-bottom: 3vh;
+	color: white;
+}
